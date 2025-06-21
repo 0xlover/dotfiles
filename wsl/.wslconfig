@@ -1,0 +1,5 @@
+[wsl2]
+memory=4294967296
+swap=8589934592
+nestedVirtualization=false
+guiApplications=false
