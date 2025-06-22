@@ -1,4 +1,4 @@
-V# Dotfiles
+# Dotfiles
 > Pragmatic and comfy setup on the latest Windows with Arch Linux inside WSL!
 
 # Steps to reproduce
@@ -15,7 +15,7 @@ V# Dotfiles
 ### Thorium
 It's an optimized, comfortable and more secure Chromium fork with [uBlock Origin](https://ublockorigin.com/)(which is pre-installed), [TTV LOL PRO](https://chromewebstore.google.com/detail/ttv-lol-pro/bpaoeijjlplfjbagceilcgbkcdjbomjd?hl=en) and [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=en) for a distraction free YouTube experience
 ```ps
-winget install Alex313031.thorium
+winget install Alex313031.Thorium
 ```
 
 ### HTTPie
