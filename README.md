@@ -13,7 +13,7 @@
 
 ## Applications
 ### Thorium
-It's an optimized, comfortable and more secure Chromium fork with [uBlock Origin](https://ublockorigin.com/)(which is pre-installed), [TTV LOL PRO](https://chromewebstore.google.com/detail/ttv-lol-pro/bpaoeijjlplfjbagceilcgbkcdjbomjd?hl=en) and [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=en) for a distraction free YouTube experience
+It's an optimized, comfortable and more secure Chromium fork with [uBlock Origin](https://ublockorigin.com/)(which is pre-installed), [TTV LOL PRO](https://chromewebstore.google.com/detail/ttv-lol-pro/bpaoeijjlplfjbagceilcgbkcdjbomjd?hl=en), [Unhook](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid?hl=en) for a distraction free YouTube experience and [Violentmonkey](https://violentmonkey.github.io/) with [AdGuard PopupBlocker](https://github.com/AdguardTeam/PopupBlocker)
 ```ps
 winget install Alex313031.Thorium
 ```
