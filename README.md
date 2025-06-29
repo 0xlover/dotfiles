@@ -35,7 +35,6 @@ These crazy looking flags just adds it to the context menu, append it to the $en
 * [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
 * [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 * [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-* [Discord Rich Presence](https://marketplace.visualstudio.com/items?itemName=LeonardSSH.vscord)
 
 ### Spotify
 You know what it is.
@@ -43,13 +42,6 @@ You know what it is.
 Spotify.Spotify
 ```
 Using [Spicetify](https://spicetify.app/) which provides premium features such as a removing cringy ads and the ability to play songs in any order without paying for Spotify premiun plus cool customization!
-
-### Discord
-Again, you know what it is, required to use it and sad about it.
-```ps
-winget install Discord.Discord
-```
-Using [Moonlight](https://moonlight-mod.github.io/) which provides premium features such as high quality streams without paying for fucking Nitro and other things such as themes(which I don't actually use)!
 
 ### More
 * Anki(for my japanese studies)
@@ -80,6 +72,10 @@ winget install Google.GoogleDrive
 ```ps
 winget install qBittorrent.qBittorrent
 ```
+* OpenComic(the best books, comics and manga reader I have ever used)
+```ps
+winget install OleguerLlopart.OpenComic
+```
 
 ### Windows Terminal
 > [!NOTE]
@@ -91,22 +87,6 @@ With the same font and colorscheme I use everywhere which are [Commit Mono](http
 * Install all the often necessary(gaming) [redistributables](https://github.com/abbodi1406/vcredist)
 * The Whatsapp Desktop [client](https://www.whatsapp.com/download)
 
-### Discover
-* [MPV](https://mpv.io/), a minimal and keybind heavy video player
-* [OpenComic](https://github.com/ollm/OpenComic), the best books, comics and manga reader I have ever used
-* [Vencord](https://vencord.dev/), a more popular Discord client mod
-
-#### Fonts
-* [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-* [GitHub Monaspace](https://monaspace.githubnext.com/)
-* [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
-
-#### Colorschemes
-* [Gruvbox Meterial](https://github.com/sainnhe/gruvbox-material)
-* [Nord](https://github.com/shaunsingh/nord.nvim)
-* [Dracula](https://github.com/Mofiqul/dracula.nvim)
-* [Catppuccin](https://github.com/catppuccin/nvim)
-* [Rose Pine](https://github.com/rose-pine/neovim)
 
 ### Inside Arch Linux WSL2
 ```
@@ -134,12 +114,13 @@ git-lfs
 go
 neovim 
 xsel
-cmatrix
 sqlite 
+ollama
 go 
 ```
 ```
 go install github.com/0xlover/auth/cmd/auth@latest
 go install github.com/go-delve/delve/cmd/dlv@latest
 go install github.com/pressly/goose/v3/cmd/goose@latest
+go install github.com/ffuf/ffuf/v2@latest
 ```
