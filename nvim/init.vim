@@ -1,13 +1,6 @@
 " Settings
 set autoread " Auto read file when modified from the outside
-set clipboard+=unnamedplus " Use system clipboard
-let s:clip = '/mnt/c/Windows/System32/clip.exe'
-if executable(s:clip)
-    augroup WSLYank
-        autocmd!
-        autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
-    augroup END
-endif
+set clipboard=unnamedplus
 set expandtab smarttab tabstop=4 shiftwidth=4 " Tabs
 set guicursor=n-v-c-i:block " Cursor
 set ignorecase hlsearch incsearch " Searching

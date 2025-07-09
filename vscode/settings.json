@@ -1,6 +1,5 @@
 {
-	// font
-	"workbench.colorTheme": "Aura Dark",
+	"workbench.colorTheme": "GitHub Dark Default",
 	"editor.fontFamily": "CommitMono",
 	"editor.fontWeight": "bold",
 	"editor.fontSize": 14,
@@ -15,90 +14,6 @@
 	"workbench.enableExperiments": false,
 	"editor.glyphMargin": false,
 	"chat.commandCenter.enabled": false,
-	// markdown
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			// Headers
-			{
-				"scope": "heading.1.markdown entity.name.section.markdown", // H1 text
-				"settings": {
-					"foreground": "#A277FF",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "heading.1.markdown punctuation.definition.heading.markdown", // H1 delimiter (###)
-				"settings": {
-					"foreground": "#A277FF"
-				}
-			},
-			{
-				"scope": "heading.2.markdown entity.name.section.markdown", // H2 text
-				"settings": {
-					"foreground": "#61FFCA",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "heading.2.markdown punctuation.definition.heading.markdown", // H2 delimiter (##)
-				"settings": {
-					"foreground": "#61FFCA"
-				}
-			},
-			{
-				"scope": "heading.3.markdown entity.name.section.markdown", // H3 text
-				"settings": {
-					"foreground": "#FFCA85",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "heading.3.markdown punctuation.definition.heading.markdown", // H3 delimiter (#)
-				"settings": {
-					"foreground": "#FFCA85"
-				}
-			},
-			{
-				"scope": "heading.4.markdown entity.name.section.markdown", // H4 text
-				"settings": {
-					"foreground": "#FF6767",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "heading.4.markdown punctuation.definition.heading.markdown", // H4 delimiter
-				"settings": {
-					"foreground": "#FF6767"
-				}
-			},
-			{
-				"scope": "heading.5.markdown entity.name.section.markdown", // H5 text
-				"settings": {
-					"foreground": "#F694FF",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "heading.5.markdown punctuation.definition.heading.markdown", // H5 delimiter
-				"settings": {
-					"foreground": "#F694FF"
-				}
-			},
-			{
-				"scope": "heading.6.markdown entity.name.section.markdown", // H6 text
-				"settings": {
-					"foreground": "#EDECEE",
-					"fontStyle": "bold"
-				}
-			},
-			{
-				"scope": "heading.6.markdown punctuation.definition.heading.markdown", // H6 delimiter
-				"settings": {
-					"foreground": "#EDECEE"
-				}
-			}
-		]
-	},
 	// explorer
 	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
@@ -166,6 +81,21 @@
 		"**/.tmp.driveupload": true,
 		"**/.tmp.drivedownload": true
 	},
-	"discord.removeDetails": true,
-	"discord.removeLowerDetails": true,
+	"go.toolsManagement.autoUpdate": true,
+	// Formatting
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
 }

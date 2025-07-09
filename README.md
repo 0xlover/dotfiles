@@ -32,9 +32,12 @@ winget install Microsoft.VisualStudioCode --override "/verysilent /suppressmsgbo
 These crazy looking flags just adds it to the context menu, append it to the $env:Path and associate various file types which you probably want!
 
 #### Extensions
-* [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
 * [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 * [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+* [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go)
+* [Bun](https://marketplace.visualstudio.com/items?itemName=oven.bun-vscode)
+* [Tinymist](https://marketplace.visualstudio.com/items?itemName=myriad-dreamin.tinymist)
+* [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
 
 ### Spotify
 You know what it is.
@@ -74,19 +77,18 @@ winget install qBittorrent.qBittorrent
 ```
 * OpenComic(the best books, comics and manga reader I have ever used)
 ```ps
-winget install OleguerLlopart.OpenComic
+Get it from https://github.com/ollm/OpenComic/releases
 ```
 
 ### Windows Terminal
 > [!NOTE]
 > Should be pre-installed now
-With the same font and colorscheme I use everywhere which are [Commit Mono](https://commitmono.com/) and [Aura](https://github.com/daltonmenezes/aura-theme)
+With the same font and colorscheme I use everywhere which are [Commit Mono](https://commitmono.com/) and [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
 
 ### Additional
 * Debloat Windows even more with [Windows 11 debloat](https://github.com/Raphire/Win11Debloat) or just run this instead of Atlas!
 * Install all the often necessary(gaming) [redistributables](https://github.com/abbodi1406/vcredist)
 * The Whatsapp Desktop [client](https://www.whatsapp.com/download)
-
 
 ### Inside Arch Linux WSL2
 ```
@@ -113,6 +115,7 @@ git
 git-lfs 
 go
 neovim 
+neovide
 xsel
 sqlite 
 ollama
@@ -120,7 +123,9 @@ go
 ```
 ```
 go install github.com/0xlover/auth/cmd/auth@latest
+go install github.com/0xlover/vuln/cmd/vuln@latest
 go install github.com/go-delve/delve/cmd/dlv@latest
 go install github.com/pressly/goose/v3/cmd/goose@latest
 go install github.com/ffuf/ffuf/v2@latest
+go install github.com/gohugoio/hugo@latest
 ```
