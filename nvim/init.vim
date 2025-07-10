@@ -45,7 +45,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 " Plugins
 call plug#begin()
-Plug 'daltonmenezes/aura-theme', { 'rtp': 'packages/neovim' }
+Plug 'projekt0n/github-nvim-theme'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
@@ -54,16 +54,5 @@ map cs gs
 
 " Colors
 set termguicolors
-colorscheme aura-dark
-highlight markdownH1 guifg=#A277FF
-highlight markdownH2 guifg=#61FFCA
-highlight markdownH3 guifg=#FFCA85
-highlight markdownH4 guifg=#FF6767
-highlight markdownH5 guifg=#F694FF
-highlight markdownH6 guifg=#EDECEE
-highlight link markdownH1Delimiter markdownH1
-highlight link markdownH2Delimiter markdownH2
-highlight link markdownH3Delimiter markdownH3
-highlight link markdownH4Delimiter markdownH4
-highlight link markdownH5Delimiter markdownH5
-highlight link markdownH6Delimiter markdownH6
+colorscheme github_dark_default
+highlight Normal guibg=NONE ctermbg=NONE
