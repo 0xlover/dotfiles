@@ -1,0 +1,25 @@
+dateformat = "2003/01/01"
+
+urls = [
+  "https://geohot.github.io/blog/feed.xml",
+  "https://lukesmith.xyz/rss.xml",
+  "https://charm.sh/blog/rss.xml",
+  "https://undeadly.org/cgi?action=rss",
+  "https://technology.riotgames.com/news/feed",
+  "https://secret.club/feed",
+  "https://research.swtch.com/feed.atom",  
+  "https://benhoyt.com/writings/rss.xml",
+  "https://feeds.feedburner.com/mrmoneymustache",
+]
+
+[reader]
+read_threshold = 1
+size = "most"
+theme = "environment"
+
+[colors]
+text = "#D6CBB4"
+inverttext = "#252B2E"
+subtext = "#6E8585"
+accent = "#B2C98F"
+borders = "#46545B"
