@@ -1,0 +1,21 @@
+require('vis')
+
+backup = require('plugins/vis-backup')
+backup.set_directory(os.getenv('HOME') .. '/.cache/vis-backup')
+require('plugins/vis-cursors')
+require('plugins/vis-format')
+require('plugins/vis-shebang')
+require('plugins/vis-commentary')
+require('plugins/vis-surround')
+require('plugins/vis-sneak')
+
+vis.events.subscribe(vis.events.INIT, function()
+	vis:command('set theme gruvbox')
+end)
+
+vis.events.subscribe(vis.events.WIN_OPEN, function(win)
+	vis:command('set autoindent on')
+	vis:command('set number')
+	vis:command('set tabwidth 4')
+	vis:command('set expandtab on')
+end)
